@@ -1,0 +1,12 @@
+#include "Food.h"
+#include <iostream>
+
+int main() {
+    Food f1;
+    Food f2;
+    Food::print_counter();
+    Food::change_counter(5);
+    Food::print_counter();
+    std::cout << get_counter() << std::endl;
+    return 0;
+}
